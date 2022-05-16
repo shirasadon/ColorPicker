@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ColorPicker.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>color matching</h1>
+    <form action="">
+        <label for="">Choose Color:</label><br><br>
+        <input type="number" id="r" class="r2" placeholder="R">
+        <input type="number" id="g" class="g2" placeholder="G">
+        <input type="number" id="b" class="b2" placeholder="B"><br><br>
+        <input type="button" value="color1" id="btn">
+        <input type="button" value="color2" id="btn2"><br><br>
+        <div id="color1">color1</div>
+        <div id="color2">color2</div><br><br>
+    </form>
+    <h2>Add to favorites list</h2>
+    <input type="text" placeholder="name" id="name">
+    <input type="text" placeholder="color" id="color"><br><br>
+    <input type="button" value="add-color-1" id="my">
+    <input type="button" value="add-color-2" id="my2"><br><br>
+    <table>
+        <h4>My Favorite:</h4>
+        <thead>
+            <tr>
+                <th>name:</th>
+                <th>color</th>
+            </tr>
+        </thead>
+        <tbody id="body"></tbody>
+    </table>
+    <script src="/ColorPicker.js"></script>
+</body>
+</html>
